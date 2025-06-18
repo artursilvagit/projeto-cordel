@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+QLD+Hand:wght@400..700&family=Passion+One:wght@400;700;900&family=Permanent+Marker&family=Rubik+Gemstones&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+QLD+Hand:wght@400..700&family=Passion+One:wght@400;700;900&family=Permanent+Marker&family=Rubik+Gemstones&family=Sriracha&display=swap');
+
+:root {
+    --font1: "Sriracha", cursive, sans-serif;
+    --font2: "Passion One", cursive;
+    --font3: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+header {
+    background-color: black;
+    color: white;
+    height: 310px;
+    text-align: center;
+}
+header h1 {
+    font-family: var(--font2);
+    font-variant: small-caps;
+    font-weight: 700;
+    font-size: 170px;
+    padding-top: 50px;
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+header p, a {
+    font-family: var(--font3);
+}
+header a:hover {
+    text-decoration: underline;
+}
+.bloco pre {
+    font-family: var(--font1);
+    font-size: 59px;
+    margin-left: 30px;
+    line-height: 2;
+}
+#b1 {
+    margin-top: 80px;
+}
+#b2 {
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#b2 pre {
+    margin-top: 75px;
+    padding: 0px 5px;
+    height: 840px;
+    display: inline-block;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+#b3 {
+    margin-top: 80px;
+}
+#b4 {
+    margin-bottom: 70px;
+}
+#b5 {
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+#b5 pre {
+    margin-top: 75px;
+    padding: 0px 5px;
+    height: 840px;
+    display: inline-block;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+#b6 pre {
+    margin-top: 75px;
+}
+footer {
+    font-family: var(--font3);
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+    text-decoration: underline;
+}
