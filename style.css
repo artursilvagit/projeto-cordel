@@ -7,23 +7,21 @@
     --font3: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
-
-
 
 header {
     background-color: black;
     color: white;
-    max-height: 445px;
     text-align: center;
 }
 header h1 {
-    font-family: var(--font2);
     font-variant: small-caps;
-    font-weight: 700;
+    font-family: var(--font2);
     font-size: 10vw;
     padding-top: 50px;
 }
@@ -35,60 +33,66 @@ header p {
     font-family: var(--font3);
     padding-bottom: 50px;
 }
-header a:hover {
-    text-decoration: underline;
+
+section {
+    padding-left: 30px;
 }
-.bloco pre {
+section p {
     font-family: var(--font1);
     font-size: 3.5vw;
-    margin-left: 30px;
     line-height: 2;
 }
-#b1 {
-    margin-top: 80px;
+section#b1 {
+    margin-top: 75px;
+    margin-bottom: 200px;
 }
-#b2 {
+section#b2 {
     background-image: url(pacote-d012/imagens/background001.jpg);
-    background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+    color: white;
 }
-#b2 pre {
-    margin-top: 75px;
+section#b2 > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.568);
+    margin: 75px 0px;
     padding: 0px 5px;
-    display: inline-block;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.479);
 }
-#b3 {
-    margin-top: 80px;
-}
-#b4 {
-    margin-bottom: 70px;
-}
-#b5 {
-    background-image: url(pacote-d012/imagens/background002.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-}
-#b5 pre {
+section#b3 {
     margin-top: 75px;
-    margin-bottom: 10px;
-    display: inline-block;
+}
+section#b4 {
+    margin-top: 120px;
+    margin-bottom: 200px;
+}
+section#b5 {
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
     color: white;
-    background-color: rgba(0, 0, 0, 0.479);
 }
-#b6 pre {
-    padding-top: 75px;
+section#b5 > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.568);
+    margin: 75px 0px;
+    padding: 0px 5px;
 }
+section#b6 {
+    margin-top: 75px;
+    margin-bottom: 120px;
+}
+section#b7 {
+    margin-bottom: 200px;
+}
+
 footer {
-    font-family: var(--font3);
     background-color: black;
     color: white;
     text-align: center;
     padding: 8px;
+    font-size: 1.1em;
 }
 footer a {
     text-decoration: none;
